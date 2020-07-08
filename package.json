@@ -1,0 +1,19 @@
+{
+  "name": "node_crash_course",
+  "version": "1.0.0",
+  "description": "NOde_crash",
+  "main": "express_demo.js",
+  "scripts": {
+    "test": "node ./express_demo",
+    "dev": "nodemon express_demo"
+  },
+  "author": "Nikhil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
